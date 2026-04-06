@@ -1,0 +1,57 @@
+body {
+    background-color: #fdf6e3;
+    font-family: 'Georgia', serif;
+}
+
+.bg-bege {
+    background-color: #f5deb3 !important;
+}
+
+.text-marrom {
+    color: #5c4033 !important;
+}
+
+.card-terrosa {
+    border: 2px solid #d2691e !important;
+    background-color: #f5deb3 !important;
+    transition: transform 0.2s;
+}
+
+.card-terrosa:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(92, 64, 51, 0.3);
+}
+
+.card-title {
+    color: #d2691e;
+    font-weight: bold;
+}
+
+.meu-botao {
+    background: linear-gradient(45deg, #d2691e, #5c4033);
+    color: white;
+    border: none;
+    padding: 30px 40px;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 30px;
+
+}
+
+.meu-botao:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-laranja {
+    background-color: #d2691e;
+    color: #fff;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+.btn-laranja:hover {
+    background-color: #a0522d;
+}
